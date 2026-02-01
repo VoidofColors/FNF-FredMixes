@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portrait-fred.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="portraitEnter0000" x="0" y="0" width="55" height="63" frameX="-10" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0001" x="0" y="0" width="55" height="63" frameX="-10" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0002" x="55" y="0" width="55" height="63" frameX="-6" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0003" x="55" y="0" width="55" height="63" frameX="-6" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0004" x="0" y="63" width="55" height="63" frameX="-2" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0005" x="0" y="63" width="55" height="63" frameX="-2" frameY="0" frameWidth="65" frameHeight="63"/>
+	<SubTexture name="portraitEnter0006" x="55" y="63" width="55" height="63"/>
+	<SubTexture name="portraitEnter0007" x="55" y="63" width="55" height="63"/>
+	<SubTexture name="portraitTalk0000" x="55" y="63" width="55" height="63"/>
+	<SubTexture name="portraitTalk0001" x="55" y="63" width="55" height="63"/>
+</TextureAtlas>

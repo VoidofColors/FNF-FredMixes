@@ -1,0 +1,195 @@
+{
+  "props": [
+    {
+      "name": "solid",
+      "zIndex": 0,
+      "assetPath": "#222026",
+      "position": [-500, -1000],
+      "scale": [2400, 2000],
+      "scroll": [0, 0]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [967, -103],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "brightLightSmall",
+      "isPixel": false,
+      "assetPath": "fred_backStage/brightLightSmall",
+      "scroll": [1.2, 1.2],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "name": "crowd",
+      "assetPath": "fred_backStage/crowd",
+      "position": [682, 290],
+      "scale": [1, 1],
+      "scroll": [0.8, 0.8],
+      "danceEvery": 0,
+      "zIndex": 5,
+      "startingAnimation": "idle",
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "Symbol 2 instance 1",
+          "frameRate": 12,
+          "looped": true,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "name": "fuckers",
+      "assetPath": "fred_backStage/fuckers",
+      "position": [15, 290],
+      "scale": [1, 1],
+      "scroll": [1, 1],
+      "danceEvery": 1,
+      "zIndex": 150,
+      "startingAnimation": "danceRight",
+      "animations": [
+        {
+          "name": "danceLeft",
+          "prefix": "FUCKERS Dancing Beat",
+          "frameIndices": [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+          "frameRate": 24,
+          "looped": false,
+          "flipX": false,
+          "flipY": false
+        },
+        {
+          "name": "danceRight",
+          "prefix": "FUCKERS Dancing Beat",
+          "frameIndices": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+          "frameRate": 24,
+          "looped": false
+        },
+        {
+          "name": "cheer",
+          "prefix": "FUCKERS Cheer",
+          "offsets": [119, -8],
+          "frameRate": 24,
+          "looped": false
+        },
+        {
+          "name": "combo50",
+          "prefix": "FUCKERS Cheer",
+          "offsets": [119, -8],
+          "frameRate": 24,
+          "looped": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [-763, -248],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "bg",
+      "isPixel": false,
+      "assetPath": "fred_backStage/bg",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 30,
+      "position": [-991, 205],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "server",
+      "isPixel": false,
+      "assetPath": "fred_backStage/server",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 4000,
+      "position": [-847, -245],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "lights",
+      "isPixel": false,
+      "assetPath": "fred_backStage/lights",
+      "scroll": [1.2, 1.2],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [189, -500],
+      "scale": [1, 1700],
+      "animType": "sparrow",
+      "name": "orangeLight",
+      "isPixel": false,
+      "assetPath": "fred_backStage/orangeLight",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 40,
+      "position": [-171, 242],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "lightgreen",
+      "isPixel": false,
+      "assetPath": "fred_backStage/lightgreen",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 40,
+      "position": [-101, 560],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "lightred",
+      "isPixel": false,
+      "assetPath": "fred_backStage/lightred",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 4500,
+      "position": [804, -117],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "lightAbove",
+      "isPixel": false,
+      "assetPath": "fred_backStage/lightAbove",
+      "scroll": [1, 1],
+      "alpha": 1,
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.85,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [977.5, 885],
+      "cameraOffsets": [-170, -140]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [20, 870],
+      "cameraOffsets": [270, -100]
+    },
+    "gf": { "zIndex": 100, "cameraOffsets": [0, 0], "position": [520, 790] }
+  },
+  "name": "Back Stage [Fred]",
+  "directory": "week1"
+}

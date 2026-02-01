@@ -1,0 +1,252 @@
+import funkin.ui.freeplay.BGScrollingText;
+import funkin.data.freeplay.player.PlayerRegistry;
+import funkin.ui.freeplay.charselect.PlayableCharacter;
+import funkin.ui.freeplay.backcards.BackingCard;
+import flixel.util.FlxSpriteUtil;
+import flixel.FlxG;
+import flixel.math.FlxMath;
+import flixel.FlxSprite;
+import funkin.ui.freeplay.FreeplayState;
+import funkin.util.BitmapUtil;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import flixel.addons.display.FlxBackdrop;
+import funkin.ui.FullScreenScaleMode;
+import funkin.Conductor;
+import flixel.FlxSubState;
+
+class FredCard extends BackingCard
+{
+  public var txtFred1:BGScrollingText;
+  public var txtFred2:BGScrollingText;
+
+  public var txtClothes1:BGScrollingText;
+  public var txtClothes2:BGScrollingText;
+
+  var scrollMiddle:FlxBackdrop;
+
+  var glow:FlxSprite;
+  var fuckassBar:FlxSprite;
+
+  var confirmAtlas:FlxAtlasSprite;
+
+  public function new()
+  {
+    super("fred");
+
+  var player = PlayerRegistry.instance.fetchEntry(this.currentCharacter);
+
+    txtFred1 = new BGScrollingText(0, 215, player.getFreeplayDJText(1), FlxG.width / 2, false, 60);
+    txtFred2 = new BGScrollingText(0, 415, player.getFreeplayDJText(1), FlxG.width / 2, false, 60);
+
+    txtClothes1 = new BGScrollingText(0, 145, player.getFreeplayDJText(3), FlxG.width / 2, true, 50);
+    txtClothes2 = new BGScrollingText(0, 525, player.getFreeplayDJText(3), FlxG.width / 2, true, 50);
+  }
+
+  public override function enterCharSel():Void
+  {
+    FlxTween.tween(txtFred1, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(txtFred2, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(txtClothes1, {speed: 0}, 0.8, {ease: FlxEase.sineIn});
+    FlxTween.tween(scrollMiddle.velocity, {x: 0}, 0.8, {ease: FlxEase.sineIn});
+  }
+
+  public override function applyExitMovers(?exitMovers:FreeplayState.ExitMoverData, ?exitMoversCharSel:FreeplayState.ExitMoverData):Void
+  {
+    super.applyExitMovers(exitMovers, exitMoversCharSel);
+    if (exitMovers == null || exitMoversCharSel == null) return;
+
+    exitMoversCharSel.set([scrollMiddle],
+      {
+        y: -80,
+        speed: 0.8,
+        wait: 0.1
+      });
+
+    exitMovers.set([txtFred1],
+      {
+        x: -txtFred1.width * 2,
+        y: txtFred1.y,
+        speed: 0.4,
+        wait: 0
+      });
+
+    exitMovers.set([txtFred2],
+      {
+        x: -txtFred2.width * 2,
+        y: txtFred2.y,
+        speed: 0.4,
+        wait: 0
+      });
+
+    exitMoversCharSel.set([fuckassBar],
+      {
+        y: -70,
+        speed: 0.8,
+        wait: 0.1
+      });
+
+    exitMovers.set([txtClothes1],
+      {
+        x: -txtFred2.width * 2,
+        y: txtFred2.y,
+        speed: 0.4,
+        wait: 0
+      });
+  }
+
+  public override function onCreate(event:ScriptEvent):Void
+  {
+    FlxTween.tween(pinkBack, {x: 0}, 0.6, {ease: FlxEase.quartOut});
+    add(pinkBack);
+
+    glow = new FlxSprite((FreeplayState.CUTOUT_WIDTH * FreeplayState.DJ_POS_MULTI) + -300, 330).loadGraphic(Paths.image('freeplay/backingCards/fred/glow'));
+    add(glow);
+
+    confirmTextGlow.blend = 0;
+    confirmTextGlow.visible = false;
+
+    confirmGlow.blend = 0;
+
+    confirmGlow.visible = false;
+    confirmGlow2.visible = false;
+
+    var bitmap = BitmapUtil.scalePartByWidth(Assets.getBitmapData(Paths.image('freeplay/backingCards/fred/fuckassBar')), FreeplayState.CUTOUT_WIDTH);
+    fuckassBar = new FlxSprite(-30, 185).loadGraphic(bitmap);
+    add(fuckassBar);
+
+    txtFred1.funnyColor = 0xFF96FFE6;
+    txtFred1.speed = 3.5;
+    add(txtFred1);
+
+    txtFred2.funnyColor = 0xFF96FFE6;
+    txtFred2.speed = 3.5;
+    add(txtFred2);
+
+    txtClothes1.funnyColor = 0xFFFFFFFF;
+    txtClothes1.speed = -5.5;
+    add(txtClothes1);
+
+    txtClothes2.funnyColor = 0xFFFFFFFF;
+    txtClothes2.speed = -5.5;
+    add(txtClothes2);
+
+    scrollMiddle = new FlxBackdrop(null, 0x01, -25);
+    scrollMiddle.setPosition(0, 250);
+    scrollMiddle.velocity.x = 230;
+    scrollMiddle.scale.x = 0.8;
+    scrollMiddle.scale.y = 0.8;
+
+    scrollMiddle.frames = Paths.getSparrowAtlas('freeplay/backingCards/fred/middleLoop');
+    scrollMiddle.animation.addByPrefix('idle', 'fuck', 24, true);
+    scrollMiddle.animation.play('idle');
+
+    add(scrollMiddle);
+
+    fuckassBar.visible = false;
+    txtFred1.visible = false;
+    txtFred2.visible = false;
+    txtClothes1.visible = false;
+    txtClothes2.visible = false;
+    scrollMiddle.visible = false;
+    glow.visible = false;
+
+    confirmAtlas = new FlxAtlasSprite(5, 55, Paths.animateAtlas("freeplay/backingCards/fred/fred-confirm"));
+    confirmAtlas.visible = false;
+    confirmAtlas.applyStageMatrix = true;
+    add(confirmAtlas);
+
+    cardGlow.blend = 0;
+    cardGlow.visible = false;
+    add(cardGlow);
+  }
+
+  override public function confirm():Void
+  {
+    confirmAtlas.visible = true;
+    confirmAtlas.anim.play("");
+
+    confirmAtlas.x = FlxG.state.subState.dj.x - 625;
+
+    fuckassBar.visible = false;
+    txtFred1.visible = false;
+    txtFred2.visible = false;
+    txtClothes1.visible = false;
+    txtClothes2.visible = false;
+    scrollMiddle.visible = false;
+    glow.visible = false;
+
+    FlxTween.color(instance.backingImage, 0.5, 0xFFA8A8A8, 0xFF646464,
+      {
+        ease: FlxEase.expoOut,
+        onUpdate: function(_) {
+          instance.angleMaskShader.extraColor = instance.backingImage.color;
+        }
+      });
+      {
+        ease: FlxEase.quadOut,
+        onComplete: function(_) {
+          FlxTween.color(instance.backingImage, 2, 0xFFCDCDCD, 0xFF555555,
+            {
+              ease: FlxEase.expoOut,
+              onUpdate: function(_) {
+                instance.angleMaskShader.extraColor = instance.backingImage.color;
+              }
+            });
+        }
+      };
+  }
+
+  var beatFreq:Int = 1;
+  var beatFreqList:Array<Int> = [1, 2, 4, 8];
+
+  public override function beatHit():Void
+  {
+    // increases the amount of beats that need to go by to pulse the glow because itd flash like craazy at high bpms.....
+    beatFreq = beatFreqList[Math.floor(Conductor.instance.bpm / 140)];
+
+    if (Conductor.instance.currentBeat % beatFreq != 0) return;
+    FlxTween.cancelTweensOf(glow);
+
+    glow.alpha = 1;
+    FlxTween.tween(glow, {alpha: 0}, 16 / 24, {ease: FlxEase.quartOut});
+  }
+
+  public override function introDone():Void
+  {
+    pinkBack.color = 0xFF58BBAE;
+
+    fuckassBar.visible = true;
+    txtFred1.visible = true;
+    txtFred2.visible = true;
+    txtClothes1.visible = true;
+    txtClothes2.visible = true;
+    scrollMiddle.visible = true;
+    glow.visible = true;
+
+    cardGlow.visible = true;
+    FlxTween.tween(cardGlow, {alpha: 0}, 0.45, {ease: FlxEase.sineOut});
+    FlxTween.tween(cardGlow.scale, {x: 1.2, y: 1.2}, 0.45, {ease: FlxEase.sineOut});
+  }
+
+  public override function disappear():Void
+  {
+    FlxTween.color(pinkBack, 0.25, 0xFF58BBAE, 0xFFFFD0D5, {ease: FlxEase.quadOut});
+
+    fuckassBar.visible = false;
+    txtFred1.visible = false;
+    txtFred2.visible = false;
+    txtClothes1.visible = false;
+    txtClothes2.visible = false;
+    scrollMiddle.visible = false;
+    glow.visible = false;
+
+    cardGlow.visible = true;
+    cardGlow.alpha = 1;
+    cardGlow.scale.set(1, 1);
+    FlxTween.tween(cardGlow, {alpha: 0}, 0.25, {ease: FlxEase.sineOut});
+    FlxTween.tween(cardGlow.scale, {x: 1.2, y: 1.2}, 0.25, {ease: FlxEase.sineOut});
+  }
+}

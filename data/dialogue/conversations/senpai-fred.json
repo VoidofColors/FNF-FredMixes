@@ -1,0 +1,159 @@
+{
+  "version": "1.0.0",
+
+  "backdrop": {
+    "type": "solid",
+    "fadeTime": 2.0,
+    "color": "#BFB3DFD8"
+  },
+
+  "music": {
+    "asset": "Lunchbox",
+    "fadeTime": 2.0,
+    "looped": true
+  },
+
+  "outro": {
+    "type": "fade",
+    "fadeTime": 1.0
+  },
+
+  "dialogue": [
+    {
+      "speaker": "senpai",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "enter",
+
+      "text": ["At once! A New lovely fair maiden has-"]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "fred-pixel",
+      "speakerAnimation": "talkEnter",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "senpai-bothered",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "senpai",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["My my! What brings a..."]
+    },
+    {
+      "speaker": "senpai-bwuh",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Creature..."]
+    },
+    {
+      "speaker": "senpai",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Like you to a Lovely place like this?"]
+    },
+    {
+      "speaker": "fred-pixel",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "senpai-bothered",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "fred-pixel-lipBite",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["   "]
+    },
+    {
+      "speaker": "senpai-angry",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "angrySenpai",
+
+      "text": ["Speak! You filthy thing!"]
+    },
+    {
+      "speaker": "fred-pixel",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["uuuuuuuuuuuuuhhhhhhhhhhhh", "hhhhhhhhhhhhhhhhhhhhhhhh"]
+    },
+    {
+      "speaker": "senpai-bothered",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    },
+    {
+      "speaker": "fred-pixel-smartAss",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["I humbly request that you participate in a musical competition with me"]
+    },
+    {
+      "speaker": "senpai",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Now you're speaking my language!", " This shall be one of my greatest performances!"]
+    },
+    {
+      "speaker": "senpai-bothered",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["Don't take the loss TOO harshly"]
+    },
+    {
+      "speaker": "fred-pixel-bothered",
+      "speakerAnimation": "talk",
+      "box": "roses",
+      "boxAnimation": "speaking",
+
+      "text": ["..."]
+    }
+  ]
+}

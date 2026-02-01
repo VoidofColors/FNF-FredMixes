@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dipshitspixel.png">
+	<SubTexture name="idle0000" x="63" y="0" width="62" height="49" frameX="8" frameY="-1" frameWidth="68" frameHeight="68"/>
+	<SubTexture name="confirm0000" x="63" y="0" width="62" height="49" frameX="8" frameY="-1" frameWidth="68" frameHeight="68"/>
+	<SubTexture name="confirm0001" x="0" y="0" width="63" height="56" frameX="10" frameY="4" frameWidth="68" frameHeight="68"/>
+	<SubTexture name="confirm0002" x="0" y="56" width="59" height="49" frameX="7" frameY="-5" frameWidth="68" frameHeight="68"/>
+	<SubTexture name="confirm0003" x="59" y="56" width="60" height="48" frameX="8" frameY="-3" frameWidth="68" frameHeight="68"/>
+	<SubTexture name="confirm-hold0000" x="59" y="56" width="60" height="48" frameX="8" frameY="-3" frameWidth="68" frameHeight="68"/>
+</TextureAtlas>

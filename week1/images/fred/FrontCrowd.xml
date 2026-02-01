@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FrontCrowd.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Crowd1 idle0000" x="0" y="0" width="2998" height="529" frameX="0" frameY="-32" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0001" x="0" y="0" width="2998" height="529" frameX="0" frameY="-32" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0002" x="0" y="534" width="2977" height="523" frameX="-13" frameY="-42" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0003" x="0" y="534" width="2977" height="523" frameX="-13" frameY="-42" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0004" x="0" y="1062" width="2999" height="498" frameX="0" frameY="-66" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0005" x="0" y="1062" width="2999" height="498" frameX="0" frameY="-66" frameWidth="2999" frameHeight="567"/>
+	<SubTexture name="Crowd1 idle0006" x="0" y="1565" width="2970" height="567" frameX="-6" frameY="0" frameWidth="2999" frameHeight="567"/>
+</TextureAtlas>

@@ -1,0 +1,33 @@
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+
+class ParentsChristmasFredCharacter extends MultiAnimateAtlasCharacter {
+	function new() {
+		super('parents-christmas-fred');
+	}
+
+	function onNoteHit(event:HitNoteScriptEvent)
+	{
+		if (!event.note.noteData.getMustHitNote() && characterType == CharacterType.DAD) {
+			// Override the hit note animation.
+			switch(event.note.kind) {
+				case "mom":
+					holdTimer = 0;
+					this.playSingAnimation(event.note.noteData.getDirection(), false, 'alt');
+					return;
+			}
+		}
+		if (!event.note.noteData.getMustHitNote() && characterType == CharacterType.DAD) {
+			// Override the hit note animation.
+			switch(event.note.kind) {
+				case "duo":
+					holdTimer = 0;
+					this.playSingAnimation(event.note.noteData.getDirection(), false, 'duo');
+					return;
+			}
+		}
+
+		super.onNoteHit(event);
+	}
+}

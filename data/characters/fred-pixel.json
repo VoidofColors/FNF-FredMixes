@@ -1,0 +1,86 @@
+{
+  "version": "1.0.1",
+  "name": "Fred (Pixel)",
+  "offsets": [0, -8],
+  "cameraOffsets": [42, 107],
+  "assetPath": "characters/Fred_Pixel_V2",
+  "flipX": true,
+  "renderType": "multisparrow",
+  "singTime": 8.0,
+  "isPixel": true,
+  "healthIcon": {
+    "id": "fred-pixel",
+    "isPixel": true
+  },
+  "death": {
+    "cameraOffsets": [15, -25],
+    "cameraZoom": 0.8
+  },
+  "scale": 6,
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "fred idle",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singUP",
+      "prefix": "fred up0",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "fred left0",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "fred right0",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "fred down0",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "fred up miss",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "fred left miss",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "fred right miss",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "fred down miss",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "firstDeath",
+      "assetPath": "characters/Fred_pixel_gameOver",
+      "prefix": "fred first death",
+      "offsets": [0, -16]
+    },
+    {
+      "name": "deathLoop",
+      "prefix": "fred death LOOP",
+      "assetPath": "characters/Fred_pixel_gameOver",
+      "looped": true,
+      "offsets": [0, -16]
+    },
+    {
+      "name": "deathConfirm",
+      "prefix": "fred death CONFIRM",
+      "assetPath": "characters/Fred_pixel_gameOver",
+      "offsets": [0, -16]
+    }
+  ]
+}
