@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "name": "Fred (Spooky) [Dark]",
+  "renderType": "multianimateatlas",
+  "offsets": [0, 5],
+  "cameraOffsets": [32, 38],
+  "death": {
+    "cameraOffsets": [-10, -125],
+    "cameraZoom": 0.9
+  },
+  "assetPath": "shared:characters/Spooky/fredSpooky-dark",
+  "flipX": true,
+  "healthIcon": {
+    "id": "fred"
+  },
+  "atlasSettings": {
+    "useRenderTexture": true
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+      "prefix": "Hey"
+    },
+    {
+      "name": "cheer",
+      "prefix": "Cheer"
+    },
+    {
+      "assetPath": "shared:characters/Spooky/fredSpooky-death",
+      "name": "firstDeath",
+      "prefix": "Death Intro",
+      "offsets": [-15, 6]
+    },
+    {
+      "assetPath": "shared:characters/Spooky/fredSpooky-death",
+      "name": "deathLoop",
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [-15, 6]
+    },
+    {
+      "assetPath": "shared:characters/Spooky/fredSpooky-death",
+      "name": "deathConfirm",
+      "prefix": "Death Confirm",
+      "offsets": [-15, 6]
+    }
+  ]
+}

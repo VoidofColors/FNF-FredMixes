@@ -1,0 +1,28 @@
+{
+  "version": "2.2.4",
+  "songName": "Pico (Fred Mix)",
+  "artist": "Void of Colors",
+  "charter": "ninjamuffin99 + MtH",
+  "playData": {
+    "difficulties": ["easy", "normal", "hard"],
+    "characters": {
+      "player": "fred",
+      "girlfriend": "fuckers",
+      "opponent": "pico",
+      "instrumental": "fred",
+      "altInstrumentals": []
+    },
+    "stage": "phillyTrainFred",
+    "noteStyle": "fred",
+    "ratings": { "easy": 3, "normal": 5, "hard": 6 },
+    "album": "fred1",
+    "stickerPack": "bonus-week3-fred",
+    "previewStart": 0,
+    "previewEnd": 15000
+  },
+  "generatedBy": "Friday Night Funkin' - v0.5.0 (runners-fixins-v2:b962c1a) PROTOTYPE",
+  "timeFormat": "ms",
+  "timeChanges": [
+    { "t": 0, "b": 0, "bpm": 150, "n": 4, "d": 4, "bt": [4, 4, 4, 4] }
+  ]
+}

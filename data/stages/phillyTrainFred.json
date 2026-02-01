@@ -1,0 +1,109 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-154, 6],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "sky",
+      "isPixel": false,
+      "assetPath": "philly/fred/sky",
+      "scroll": [0.1, 0.1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [-256, 46],
+      "scale": [0.9, 0.9],
+      "animType": "sparrow",
+      "name": "city",
+      "isPixel": false,
+      "assetPath": "philly/fred/city",
+      "scroll": [0.3, 0.3],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 30,
+      "position": [-184, 155],
+      "scale": [0.9, 0.9],
+      "animType": "sparrow",
+      "name": "lights",
+      "isPixel": false,
+      "assetPath": "philly/fred/win",
+      "scroll": [0.3, 0.3],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 50,
+      "position": [179, 146],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "behindTrain",
+      "isPixel": false,
+      "assetPath": "philly/fred/behindTrain",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 60,
+      "position": [5000, 360],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "train",
+      "isPixel": false,
+      "assetPath": "philly/fred/train",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 72,
+      "position": [-511, 144],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "street",
+      "isPixel": false,
+      "assetPath": "philly/fred/street",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [5, 835],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "hatch",
+      "isPixel": false,
+      "assetPath": "philly/fred/hatch",
+      "scroll": [1, 1],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 1.05,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1120.5, 875],
+      "cameraOffsets": [-295, -100]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [395, 880],
+      "cameraOffsets": [280, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [795, 787]
+    }
+  },
+  "name": "Philly (Train) [Fred]",
+  "directory": "week3"
+}

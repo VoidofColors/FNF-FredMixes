@@ -1,0 +1,173 @@
+{
+  "props": [
+    {
+      "danceEvery": 0,
+      "zIndex": 10,
+      "position": [-587, -147],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "backWall",
+      "isPixel": false,
+      "assetPath": "fred/backWall",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 20,
+      "position": [-1180, 686],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "stageFloor",
+      "isPixel": false,
+      "assetPath": "fred/stageFloor",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 25,
+      "position": [1587, 177],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "servers",
+      "isPixel": false,
+      "assetPath": "fred/servers",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 30,
+      "position": [-283, -243],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "spotlights",
+      "isPixel": false,
+      "assetPath": "fred/spotlights",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 400,
+      "position": [-300, -450],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "brightLightsSmall",
+      "isPixel": false,
+      "assetPath": "fred/brightLightsSmall",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 500,
+      "position": [-1513, -350],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "curtains",
+      "isPixel": false,
+      "assetPath": "fred/curtainRed",
+      "scroll": [1.1, 1.1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 600,
+      "position": [-300, -450],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "lightsAbove",
+      "isPixel": false,
+      "assetPath": "fred/lightsAbove",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "name": "FrontCrowd",
+      "assetPath": "fred/FrontCrowd",
+      "position": [-660, 767],
+      "scale": [1, 1],
+      "scroll": [0.8, 0.8],
+      "danceEvery": 0,
+      "zIndex": 700,
+      "startingAnimation": "idle",
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "Crowd1 idle",
+          "frameRate": 12,
+          "looped": true,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "name": "BackCrowd",
+      "assetPath": "fred/BackCrowd",
+      "position": [-950, 795],
+      "scale": [1, 1],
+      "scroll": [0.6, 0.6],
+      "danceEvery": 0,
+      "zIndex": 800,
+      "startingAnimation": "idle",
+      "animations": [
+        {
+          "name": "idle",
+          "prefix": "Crowd2 idle",
+          "frameRate": 12,
+          "looped": true,
+          "flipX": false,
+          "flipY": false
+        }
+      ]
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 900,
+      "position": [-1445, -465],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "orangeLight",
+      "isPixel": false,
+      "assetPath": "fred/orangeLight",
+      "scroll": [1, 1],
+      "animations": []
+    },
+    {
+      "danceEvery": 0,
+      "zIndex": 1000,
+      "position": [-1374, 589],
+      "scale": [1, 1],
+      "animType": "sparrow",
+      "name": "Dark",
+      "isPixel": false,
+      "assetPath": "fred/Dark",
+      "scroll": [1, 1],
+      "animations": []
+    }
+  ],
+  "cameraZoom": 0.78,
+  "version": "1.0.0",
+  "characters": {
+    "bf": {
+      "zIndex": 300,
+      "position": [1170, 865],
+      "cameraOffsets": [-170, -140]
+    },
+    "dad": {
+      "zIndex": 200,
+      "position": [300, 865],
+      "cameraOffsets": [270, -100]
+    },
+    "gf": {
+      "zIndex": 100,
+      "cameraOffsets": [0, 0],
+      "position": [751.5, 765]
+    }
+  },
+  "name": "Main Stage [Void of Funkin']",
+  "directory": "week1"
+}

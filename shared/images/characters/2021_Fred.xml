@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="2021_Fred.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fred down0000" x="441" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0001" x="441" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0002" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0003" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0004" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0005" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0006" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0007" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0008" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0009" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0010" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0011" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0012" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0013" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down0014" x="5" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0000" x="441" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0001" x="877" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0002" x="877" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0003" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0004" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0005" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0006" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0007" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0008" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0009" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0010" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0011" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0012" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0013" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred down miss0014" x="1313" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0000" x="1749" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0001" x="1749" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0002" x="2185" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0003" x="2185" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0004" x="1749" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0005" x="1749" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0006" x="2621" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0007" x="2621" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0008" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0009" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0010" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0011" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0012" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0013" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred idle0014" x="3057" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0000" x="5" y="647" width="431" height="637"/>
+	<SubTexture name="fred left0001" x="5" y="647" width="431" height="637"/>
+	<SubTexture name="fred left0002" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0003" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0004" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0005" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0006" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0007" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0008" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0009" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0010" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0011" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0012" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0013" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left0014" x="3493" y="5" width="431" height="637"/>
+	<SubTexture name="fred left miss0000" x="5" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0001" x="441" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0002" x="441" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0003" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0004" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0005" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0006" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0007" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0008" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0009" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0010" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0011" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0012" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0013" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred left miss0014" x="877" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0000" x="1749" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0001" x="1749" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0002" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0003" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0004" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0005" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0006" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0007" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0008" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0009" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0010" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0011" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0012" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0013" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right0014" x="1313" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0000" x="1749" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0001" x="2185" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0002" x="2185" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0003" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0004" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0005" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0006" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0007" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0008" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0009" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0010" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0011" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0012" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0013" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred right miss0014" x="2621" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0000" x="3493" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0001" x="3493" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0002" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0003" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0004" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0005" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0006" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0007" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0008" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0009" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0010" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0011" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0012" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0013" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up0014" x="3057" y="647" width="431" height="637"/>
+	<SubTexture name="fred up miss0000" x="3493" y="647" width="431" height="637"/>
+	<SubTexture name="fred up miss0001" x="5" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0002" x="5" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0003" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0004" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0005" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0006" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0007" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0008" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0009" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0010" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0011" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0012" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0013" x="441" y="1289" width="431" height="637"/>
+	<SubTexture name="fred up miss0014" x="441" y="1289" width="431" height="637"/>
+</TextureAtlas>

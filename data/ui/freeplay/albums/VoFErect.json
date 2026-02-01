@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "name": "VOF",
+  "artists": ["Void of Colors"],
+  "albumArtAsset": "freeplay/albumRoll/VoF-Erect",
+  "albumTitleAsset": "freeplay/albumRoll/VoF-Erect-text",
+  "albumTitleOffsets": [45, 0]
+}

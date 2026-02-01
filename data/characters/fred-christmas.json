@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "name": "Fred (Christmas)",
+  "renderType": "multianimateatlas",
+  "offsets": [0, 5],
+  "cameraOffsets": [32, 38],
+  "death": {
+    "cameraOffsets": [-10, -125],
+    "cameraZoom": 0.9
+  },
+  "assetPath": "shared:characters/fred-christmas",
+  "flipX": true,
+  "healthIcon": {
+    "id": "fred"
+  },
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "Idle"
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "Left"
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "Down"
+    },
+    {
+      "name": "singUP",
+      "prefix": "Up"
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "Right"
+    },
+    {
+      "name": "singLEFTmiss",
+      "prefix": "Left Miss"
+    },
+    {
+      "name": "singDOWNmiss",
+      "prefix": "Down Miss"
+    },
+    {
+      "name": "singUPmiss",
+      "prefix": "Up Miss"
+    },
+    {
+      "name": "singRIGHTmiss",
+      "prefix": "Right Miss"
+    },
+    {
+      "name": "hey",
+      "prefix": "Hey"
+    },
+    {
+      "assetPath": "shared:characters/fred-death-christmas",
+      "name": "firstDeath",
+      "prefix": "Death Intro",
+      "offsets": [0, 0]
+    },
+    {
+      "assetPath": "shared:characters/fred-death-christmas",
+      "name": "deathLoop",
+      "prefix": "Death Loop",
+      "looped": true,
+      "offsets": [0, 0]
+    },
+    {
+      "assetPath": "shared:characters/fred-death-christmas",
+      "name": "deathConfirm",
+      "prefix": "Death Confirm",
+      "offsets": [0, 0]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+import flixel.tweens.FlxEase;
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+import funkin.play.cutscene.dialogue.Conversation;
+import funkin.graphics.FunkinSprite;
+import flixel.addons.display.FlxBackdrop;
+import funkin.play.PlayState;
+
+class SenpaiFredConversation extends Conversation
+{
+  function new()
+  {
+    super('senpai-fred');
+  }
+
+  public function onDialogueStart(event:DialogueScriptEvent)
+  {
+    super.onDialogueStart(event);
+
+    BitingNails();
+  }
+
+  override function showCurrentSpeaker():Void
+  {
+    super.showCurrentSpeaker();
+
+    // Funny moment; stop the music for dramatic effect.
+    switch (currentSpeaker.id)
+    {
+      case 'senpai-bwuh':
+        if (this.music != null)
+        {
+          this.music.destroy();
+          this.music = null;
+        }
+      case 'senpai':
+        if (this.music == null)
+        {
+          this.setupMusic();
+        }
+      case 'fred-pixel-lipBite':
+
+          fuck.visible = true;
+          FlxTween.tween(fuck, {alpha: 1}, 1);
+
+      case 'senpai-angry':
+
+          FlxTween.tween(fuck, {alpha: 0}, 1);
+    }
+  }
+
+  var fuck:FlxBackdrop;
+
+  function BitingNails() 
+  {
+
+     fuck = new FlxBackdrop(Paths.image('weeb/FUCK'));
+     fuck.setPosition(0, 0);
+     fuck.scale.set(6, 6);
+     fuck.velocity.x = -220;
+     fuck.velocity.y = -220;
+     fuck.alpha = 0;
+     fuck.antialiasing = false;
+
+     fuck.blend = 0;
+
+     PlayState.instance.add(fuck);
+  }
+
+  public function onDialogueSkip(event:DialogueScriptEvent)
+  {
+    super.onDialogueSkip(event);
+
+    FlxTween.tween(fuck, {alpha: 0}, 1);
+  }
+}
