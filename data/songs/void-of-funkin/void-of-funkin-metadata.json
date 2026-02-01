@@ -14,7 +14,7 @@
     "ratings": { "easy": 3, "normal": 4, "hard": 6 },
     "characters": {
       "player": "bf",
-      "girlfriend": "gf-fuckers",
+      "girlfriend": "gfandFuckers",
       "opponent": "fred-neutral",
       "instrumental": "",
       "altInstrumentals": [""]
