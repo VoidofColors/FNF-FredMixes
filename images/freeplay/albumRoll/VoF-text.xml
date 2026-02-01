@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="VoF-text.png">
-	<!-- Created with Adobe Animate version 21.0.9.42677 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="idle0000" x="0" y="0" width="321" height="185"/>
-	<SubTexture name="switch0000" x="326" y="0" width="321" height="185"/>
-</TextureAtlas>

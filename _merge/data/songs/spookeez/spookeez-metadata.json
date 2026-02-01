@@ -1,4 +1,0 @@
-[
-  { "op": "add", "path": "/playData/songVariations/1", "value": "fred" },
-  { "op": "add", "path": "/playData/songVariations/1", "value": "erectfred" }
-]
