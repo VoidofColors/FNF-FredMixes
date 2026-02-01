@@ -150,11 +150,19 @@ class LimoRideFredStage extends Stage
 
     getNamedProp('shootingStar').blend = 0;
 
+    carSequenceData = [
+      {time: 1, callback: () -> doCarHaptics = true},
+      {time: 1.4, callback: () -> doCarHaptics = false},
+      {time: 2, callback: () -> resetFastCar()}
+    ];
+
     resetFastCar();
   }
 
   var _timer:Float = 0;
 
+  var carSequence:Sequence;
+  var carSequenceData:Array<SequenceData>;
   var doCarHaptics:Bool = false;
 
   function onUpdate(event:UpdateScriptEvent):Void
