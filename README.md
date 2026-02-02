@@ -1,8 +1,9 @@
 # FNF Project VoF: Fred Mixes
 
 FNF Project VoF: Fred Mixes, or "FNF Fred Mix" is a character mix mod for [Friday Night Funkin'](https://github.com/FunkinCrew/Funkin) that add Fred, a bendy oc as a playble character with custom stages and remixes
-
 - [Download on Gamebanana](https://gamebanana.com/mods/599057)
+
+- [Project files can be found here!](https://github.com/VoidofColors/FredMix-ProjectFiles)
 
 # Credits
 
