@@ -1,14 +1,14 @@
 import funkin.graphics.adobeanimate.FlxAtlasSprite;
 import flixel.FlxG;
 import funkin.audio.FunkinSound;
-import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.AnimateAtlasCharacter;
 import funkin.play.GameOverSubState;
 import funkin.play.character.BaseCharacter;
 import funkin.play.character.CharacterDataParser;
 import funkin.play.character.CharacterType;
 import funkin.play.PlayState;
 
-class FuckersDarkCharacter extends MultiAnimateAtlasCharacter {
+class FuckersDarkCharacter extends AnimateAtlasCharacter {
 	function new() {
 		super('fuckers-dark');
 	}
